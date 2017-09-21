@@ -1,0 +1,153 @@
+{
+    "code": 404,
+    "body": "{\"code\":\"NotFound\",\"message\":\"Message: {\\\"Errors\\\":[\\\"Owner resource does not exist\\\"]}\\r\\nActivityId: 617e2902-13fc-413d-b2ec-96607c95d609, Request URI: /apps/708ed403-166f-44e4-847f-ccaa0cd22d9c/services/9c0fe784-8482-46ad-a766-cf8508ac85af/partitions/9c3a7b77-8428-4c98-b601-9a846f49bc33/replicas/131502863683492085s\"}",
+    "activityId": "617e2902-13fc-413d-b2ec-96607c95d609"
+}
+
+{
+    "id": "FamilyColl",
+    "indexingPolicy": {
+        "indexingMode": "consistent",
+        "automatic": true,
+        "includedPaths": [
+            {
+                "path": "/*",
+                "indexes": [
+                    {
+                        "kind": "Range",
+                        "dataType": "Number",
+                        "precision": -1
+                    },
+                    {
+                        "kind": "Hash",
+                        "dataType": "String",
+                        "precision": 3
+                    }
+                ]
+            }
+        ],
+        "excludedPaths": []
+    },
+    "_rid": "iX8tANWBhgA=",
+    "_ts": 1505880675,
+    "_self": "dbs/iX8tAA==/colls/iX8tANWBhgA=/",
+    "_etag": "\"00003f00-0000-0000-0000-59c1ea630000\"",
+    "_docs": "docs/",
+    "_sprocs": "sprocs/",
+    "_triggers": "triggers/",
+    "_udfs": "udfs/",
+    "_conflicts": "conflicts/"
+}
+
+
+{
+    "id": "Anderson.1",
+    "lastName": "Andersen",
+    "parents": [
+        {
+            "firstName": "Thomas"
+        },
+        {
+            "firstName": "Mary Kay"
+        }
+    ],
+    "children": [
+        {
+            "firstName": "Henriette Thaulow",
+            "gender": "female",
+            "grade": 5,
+            "pets": [
+                {
+                    "givenName": "Fluffy"
+                }
+            ]
+        }
+    ],
+    "address": {
+        "state": "WA",
+        "county": "King",
+        "city": "Seattle"
+    },
+    "_rid": "iX8tAPUy3AABAAAAAAAAAA==",
+    "_self": "dbs/iX8tAA==/colls/iX8tAPUy3AA=/docs/iX8tAPUy3AABAAAAAAAAAA==/",
+    "_etag": "\"00005502-0000-0000-0000-59c20b020000\"",
+    "_attachments": "attachments/",
+    "_ts": 1505889026
+}
+/*    -----------------------------     */
+{
+    "id": "Anderson.1",
+    "lastName": "Andersen",
+    "parents": [
+        {
+            "firstName": "Thomas"
+        },
+        {
+            "firstName": "Mary Kay"
+        }
+    ],
+    "children": [
+        {
+            "firstName": "Henriette Thaulow",
+            "gender": "female",
+            "grade": 5,
+            "pets": [
+                {
+                    "givenName": "Fluffy"
+                }
+            ]
+        }
+    ],
+    "address": {
+        "state": "WA",
+        "county": "King",
+        "city": "Seattle"
+    },
+    "_rid": "iX8tAPUy3AABAAAAAAAAAA==",
+    "_self": "dbs/iX8tAA==/colls/iX8tAPUy3AA=/docs/iX8tAPUy3AABAAAAAAAAAA==/",
+    "_etag": "\"00005502-0000-0000-0000-59c20b020000\"",
+    "_attachments": "attachments/",
+    "_ts": 1505889026
+}
+Query returned{
+    "id": "Rooney.1",
+    "name": "เวน Rooney",
+    "position": "ST,CF,CAM,CM",
+    "bithdate": "14.10.1985",
+    "_rid": "iX8tAPUy3AACAAAAAAAAAA==",
+    "_self": "dbs/iX8tAA==/colls/iX8tAPUy3AA=/docs/iX8tAPUy3AACAAAAAAAAAA==/",
+    "_etag": "\"00005602-0000-0000-0000-59c20e090000\"",
+    "_attachments": "attachments/",
+    "_ts": 1505889801
+}
+Query returned{
+    "id": "Alex",
+    "ชื่อ": "เซอร์อเล็ก เฟอร์กูซัน",
+    "_rid": "iX8tAPUy3AADAAAAAAAAAA==",
+    "_self": "dbs/iX8tAA==/colls/iX8tAPUy3AA=/docs/iX8tAPUy3AADAAAAAAAAAA==/",
+    "_etag": "\"00005702-0000-0000-0000-59c20f770000\"",
+    "_attachments": "attachments/",
+    "_ts": 1505890167
+}
+/*
+    Test
+*/
+
+Query returned{
+    "id": "replace_with_new_document_id",
+    "name": "Test",
+    "_rid": "Rk01ALGhIwABAAAAAAAAAA==",
+    "_self": "dbs/Rk01AA==/colls/Rk01ALGhIwA=/docs/Rk01ALGhIwABAAAAAAAAAA==/",
+    "_etag": "\"00004000-0000-0000-0000-59c0bbd10000\"",
+    "_attachments": "attachments/",
+    "_ts": 1505803217
+}
+Query returned{
+    "id": "1",
+    "name": "Test",
+    "_rid": "Rk01ALGhIwADAAAAAAAAAA==",
+    "_self": "dbs/Rk01AA==/colls/Rk01ALGhIwA=/docs/Rk01ALGhIwADAAAAAAAAAA==/",
+    "_etag": "\"00004200-0000-0000-0000-59c0bc650000\"",
+    "_attachments": "attachments/",
+    "_ts": 1505803365
+}
